@@ -1,16 +1,7 @@
 # Artem Matviienko
 
 ## About Me
-Hard-working, creative, and proactive. Ambitious, eager to keep growing and evolving in my profession. Constantly developing new skills and abilities.
-
-## Competences
-- Able to solve conflicts inside a team
-- Logical
-- Confident
-- Organized
-- Responsible
-- Versatile
-- Team player
+I am a dedicated and proactive Data Analyst with a strong background in Computer Science. I am ambitious and eager to grow in my profession, constantly developing new skills and abilities to provide insightful data-driven solutions.
 
 ## Contact
 - **Phone:** +380681791738
@@ -19,16 +10,47 @@ Hard-working, creative, and proactive. Ambitious, eager to keep growing and evol
 ## Education
 **Bachelor: Computer Science**  
 National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute  
-*2020-09 - Current*
+*September 2020 - Current*
 
 ## Skills
-- Agile
+- Data Analysis
 - Python
-- OOP Principles
 - SQL
 - Relational Databases
+- Data Visualization (e.g., Tableau, Power BI)
+- Statistical Analysis
+- Agile Methodologies
+- OOP Principles
 
 ## Languages
 - English (Advanced)
-- Fluent Ukrainian
-- Fluent Russian
+- Ukrainian (Fluent)
+- Russian (Fluent)
+
+## Experience
+**Data Analyst Intern**  
+*Company Name*  
+*Month Year - Present*  
+- Conducted data cleaning, transformation, and analysis to support business decision-making.
+- Developed and maintained dashboards to visualize key performance indicators.
+- Collaborated with cross-functional teams to identify and address data needs.
+
+## Projects
+**Sales Data Analysis Project**
+- Analyzed sales data to identify trends and insights that improved sales strategies.
+- Used Python and SQL for data extraction, cleaning, and analysis.
+- Created interactive dashboards using Tableau to present findings to stakeholders.
+
+**Customer Segmentation Analysis**
+- Performed customer segmentation using clustering techniques to enhance marketing efforts.
+- Utilized Python libraries such as Pandas, NumPy, and Scikit-learn for analysis.
+- Presented actionable insights and recommendations based on data findings.
+
+## Certifications
+<a href="https://coursera.org/share/635d85316e34412e74d40df880f7105f" target="_blank">Google Advanced Data Analytics by Google on Coursera</a>
+
+
+
+---
+
+This version is focused on showcasing skills and experience relevant to a Data Analyst role, including education, skills, experience, projects, and certifications. Adjust the placeholder texts (e.g., *Company Name*, *Institution Name*) with actual details as needed.
