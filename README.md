@@ -27,14 +27,6 @@ National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institu
 - Ukrainian (Fluent)
 - Russian (Fluent)
 
-## Experience
-**Data Analyst Intern**  
-*Company Name*  
-*Month Year - Present*  
-- Conducted data cleaning, transformation, and analysis to support business decision-making.
-- Developed and maintained dashboards to visualize key performance indicators.
-- Collaborated with cross-functional teams to identify and address data needs.
-
 ## Projects
 **Sales Data Analysis Project**
 - Analyzed sales data to identify trends and insights that improved sales strategies.
