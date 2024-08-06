@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Debt Situation Analysis - Artem Matviienko</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding-top: 56px; }
+        .project-header { padding: 100px 0; background-color: #f8f9fa; }
+        .project-content { padding: 50px 0; }
+        .figure { margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Artem Matviienko</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <header class="project-header">
+        <div class="container">
+            <h1 class="display-4">Data Analysis of US Debt Situation</h1>
+            <p class="lead">An in-depth exploration of the US federal debt landscape</p>
+        </div>
+    </header>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>This data story is based on an advanced analysis of the US debt situation, conducted using a Kaggle notebook. The analysis utilizes Python and various data analysis libraries to fetch, process, and visualize economic data from the Federal Reserve Economic Data (FRED) database.</p>
+
+            <h2>Key Findings</h2>
+            <ul>
+                <li>Total US federal debt has been rising sharply over time.</li>
+                <li>The debt-to-GDP ratio provides a more nuanced view of the debt situation.</li>
+                <li>Interest payments on the federal debt have significantly escalated since October 2020.</li>
+                <li>In 2023, interest payments per US citizen exceeded $3000.</li>
+                <li>Interest payments now constitute a major portion of the budget deficit.</li>
+            </ul>
+
+            <h2>Visualizations</h2>
+            <div class="figure">
+                <img src="images/projects/total_debt.jpg" alt="Total Public Debt" class="img-fluid">
+                <p class="figure-caption">Figure 1: Federal Debt - Total Public Debt</p>
+            </div>
+            <div class="figure">
+                <img src="images/projects/debt_to_gdp.jpg" alt="Debt as Percent of GDP" class="img-fluid">
+                <p class="figure-caption">Figure 2: Federal Debt as Percent of GDP</p>
+            </div>
+            <div class="figure">
+                <img src="images/projects/interest_payments.jpg" alt="Interest Payments" class="img-fluid">
+                <p class="figure-caption">Figure 3: Federal Government Interest Payments</p>
+            </div>
+
+            <h2>Conclusions</h2>
+            <p>The analysis reveals the complexities of the US debt landscape, emphasizing the importance of considering both absolute figures and relative metrics to understand the broader economic implications. While the total debt has increased, the debt-to-GDP ratio and interest payments as a fraction of GDP provide a more comprehensive picture of the financial situation.</p>
+
+            <h2>Methodology</h2>
+            <p>This analysis was conducted using Python, leveraging libraries such as pandas, numpy, matplotlib, and plotly. Data was sourced from the Federal Reserve Economic Data (FRED) database using the FRED API.</p>
+
+            <a href="#" class="btn btn-primary">View Full Code on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
