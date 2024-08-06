@@ -17,10 +17,8 @@ National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institu
 - Python
 - SQL
 - Relational Databases
-- Data Visualization (e.g., Tableau, Power BI)
+- Data Visualization ( Tableau, Power BI)
 - Statistical Analysis
-- Agile Methodologies
-- OOP Principles
 
 ## Languages
 - English (Advanced)
