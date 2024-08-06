@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body { padding-top: 56px; }
-        .project-header { padding: 100px 0; background-color: #f8f9fa; }
+        .project-header {
+            padding: 100px 0;
+            background-image: url('images/debt_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            color: white;
+        }
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .project-header .container {
+            position: relative;
+            z-index: 1;
+        }
+        .project-header h1, .project-header p {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
         .project-content { padding: 50px 0; }
         .figure { margin-bottom: 30px; }
     </style>
@@ -33,8 +55,9 @@
         </div>
     </nav>
 
-    <!-- Project Header -->
+    <!-- Project Header with Banner -->
     <header class="project-header">
+        <div class="banner-overlay"></div>
         <div class="container">
             <h1 class="display-4">Data Analysis of US Debt Situation</h1>
             <p class="lead">An in-depth exploration of the US federal debt landscape</p>
@@ -76,7 +99,7 @@
             <h2>Methodology</h2>
             <p>This analysis was conducted using Python, leveraging libraries such as pandas, numpy, matplotlib, and plotly. Data was sourced from the Federal Reserve Economic Data (FRED) database using the FRED API.</p>
 
-            <a href="https://github.com/n1dlex/projects/blob/c37219b75dca2f4ad0f1356578a8ea5fa1fb43b6/The_Evolving_Landscape_of_US_Debt_A_Data_Driven_E_(2).ipynb" class="btn btn-primary">View Full Code on GitHub</a>
+            <a href="https://github.com/n1dlex/projects/blob/main/The_Evolving_Landscape_of_US_Debt_A_Data_Driven_E_(2).ipynb" class="btn btn-primary">View Full Code on GitHub</a>
         </div>
     </section>
 
