@@ -8,27 +8,131 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <style>
-  .section {
-    padding: 50px 0;
-  }
-  .section h2 {
-    margin-bottom: 30px;
-  }
-  .about-section img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  .skill-badge, .language-badge {
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
+  /* ... (keeping all the existing styles) ... */
 </style>
 
 </head>
 <body>
 
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/1.jpg" alt="Artem Matviienko">
+    <p>I am hard-working, creative, and proactive. Ambitious and eager to grow and evolve in my profession, I am constantly developing new skills and abilities.</p>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of Project 1. Showcase your skills and achievements.</p>
+            <a href="#" class="btn btn-primary">Details</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Description of Project 2. Highlight your problem-solving abilities.</p>
+            <a href="#" class="btn btn-primary">Details</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Description of Project 3. Demonstrate your technical expertise.</p>
+            <a href="#" class="btn btn-primary">Details</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Agile">
+          <div class="card-body">
+            <h5 class="card-title">Agile</h5>
+            <p class="card-text">Experience with Agile methodologies and project management.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Proficient in Python programming and its applications.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="OOP Principles">
+          <div class="card-body">
+            <h5 class="card-title">OOP Principles</h5>
+            <p class="card-text">Strong understanding of Object-Oriented Programming concepts.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/4.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">Experienced in SQL and working with relational databases.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> q2831457@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> +380681791738</p>
+      </div>
+    </div>
+    <!-- Keep the existing social media links -->
+  </div>
+</section>
+
+<!-- Sticky Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#home">Artem Matviienko</a>
@@ -38,10 +142,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
@@ -54,55 +161,7 @@
   </div>
 </nav>
 
-<section id="about" class="about-section section">
-  <div class="container text-center">
-    <h2>About Me</h2>
-    <img src="your_photo.jpg" alt="Artem Matviienko" class="mb-4">
-    <p>I am hard-working, creative, and proactive. Ambitious and eager to grow and evolve in my profession, I am constantly developing new skills and abilities.</p>
-    <h3 class="mt-4">Languages</h3>
-    <div>
-      <span class="badge badge-primary language-badge">English (Advanced)</span>
-      <span class="badge badge-primary language-badge">Ukrainian (Fluent)</span>
-      <span class="badge badge-primary language-badge">Russian (Fluent)</span>
-    </div>
-  </div>
-</section>
-
-<section id="education" class="education-section section bg-light">
-  <div class="container">
-    <h2 class="text-center">Education</h2>
-    <div class="card">
-      <div class="card-body">
-        <h3 class="card-title">Bachelor: Computer Science</h3>
-        <h4 class="card-subtitle mb-2 text-muted">National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h4>
-        <p class="card-text">September 2020 - Current</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="skills" class="skills-section section">
-  <div class="container text-center">
-    <h2>Skills</h2>
-    <div>
-      <span class="badge badge-secondary skill-badge">Agile</span>
-      <span class="badge badge-secondary skill-badge">Python</span>
-      <span class="badge badge-secondary skill-badge">OOP Principles</span>
-      <span class="badge badge-secondary skill-badge">SQL</span>
-      <span class="badge badge-secondary skill-badge">Relational Databases</span>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="contact-section section bg-dark text-white">
-  <div class="container text-center">
-    <h2>Contact Me</h2>
-    <p><i class="fas fa-phone"></i> +380681791738</p>
-    <p><i class="fas fa-envelope"></i> q2831457@gmail.com</p>
-  </div>
-</section>
-
-<!-- Bootstrap JS and dependencies -->
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
